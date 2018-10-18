@@ -16,7 +16,11 @@ import user.domain.UserHobby;
 import user.domain.User;
 import cn.itcast.commons.CommonUtils;
 import cn.itcast.servlet.BaseServlet;
-
+/**
+ * 用户Servlet
+ * @author ASUS
+ *
+ */
 public class UserServlet extends BaseServlet {
 	private UserDao userDao = new UserDao();
 
